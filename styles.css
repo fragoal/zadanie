@@ -1,0 +1,54 @@
+* {
+    font-size: 30px;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.dash {
+    background-color: cyan;
+    border: 4px solid blue;
+    border-radius: 10px;
+    border-style: dashed;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.dot {
+    background-color: cyan;
+    border: 4px solid blue;
+    border-radius: 10px;
+    border-style: dotted;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sign1 {
+    background-color: red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.sign2 {
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    top: 80px;
+    width: 180px;
+    height: 40px;
+}
